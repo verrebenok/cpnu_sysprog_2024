@@ -3,6 +3,9 @@
 .vs
 .vscode
 .project
+.settings/
+.classpath
+*.launch
 
 # Ігнорування системних файлів
 .DS_Store
@@ -20,7 +23,15 @@ Thumbs.db
 *.out
 ki-231-Dank0-0-lab1
 *.exe
-#*.exe
 
-# Ігнорування системних файлів
-.DS_Store
+# Ігнорування бібліотек та залежностей
+node_modules/
+.venv/
+venv/
+
+# Ігнорування файлів Java
+*.class
+
+# Ігнорування файлів CMake
+CMakeFiles/
+CMakeCache.txt
